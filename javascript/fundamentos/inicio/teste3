@@ -1,0 +1,11 @@
+algoritmo multiplosDeQuinze
+
+inteiro a
+
+a = 15
+
+faca 
+ a + 15
+ enquanto (a =< 500)
+
+ leia(a)

@@ -1,0 +1,13 @@
+algoritmo resistorEquivalente
+
+real Req, R1, R2
+real Rx, Ry
+
+R1 = "Escreva o valor de R1"
+r2 = "Escreva o valor de R2"
+
+Rx = R1 * R2
+Ry = R1 + R2
+
+Req = Rx / Ry
+leia(Req)

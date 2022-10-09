@@ -1,0 +1,22 @@
+algoritmo calcIRPF 
+
+inteiro renda
+salario = "escreva o valor de sua renda"
+se (renda =< 2284,76) entao
+escreva("Isento")
+
+senao se ( 33.919,80 => renda => 22847,77) entao
+escreva("7,5%")
+
+senao se ( 55.976,16 => renda => 45.012,61) entao
+escreva("15%")
+
+senao  (55.976,16  => renda => 45.012,61) entao
+escreva("22,5")
+
+senao  (renda >55.976,16 ) entao
+escreva("22,5")
+
+fimSe
+fimSe
+fimSe
